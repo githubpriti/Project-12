@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Edu+NSW+ACT+Foundation&family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,400;1,500;1,700&family=Orbitron:wght@400;700&family=Oswald:wght@700&family=Red+Rose:wght@700&family=Roboto:wght@400;900&family=Sansita+Swashed:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Edu+NSW+ACT+Foundation&family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,400;1,500;1,700&family=Orbitron:wght@400;700&family=Oswald:wght@700&family=Raleway:wght@600&family=Red+Rose:wght@700&family=Roboto:wght@400;900&family=Sansita+Swashed:wght@500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffffff;
+}
+nav{
+   background-color: #626c78;
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   font-family:"Roboto" ,sans-serif;
+   padding: 20px 40px;
+   padding-bottom: 40px;
+   padding-left: 70px;
+} 
+.logo>img{
+    height:40px;
+    position: absolute;  
+    top: 30px;
+ } 
+.nav-list{
+    display: flex;
+    list-style: none;
+    color: #fffefe;
+    gap: 35px;
+    align-items: center;
+}
+.btn{
+    background:transparent;
+    padding: 10px 45px;
+    color: #ffffff;
+    border: 1px solid #c6c5c5;
+    border-radius: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hero{
+    color: #fffefe;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px 60px;
+    background-color: #626c78;
+}
+.hero-left>img{
+    height: 550px;
+    width: 440px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* margin-right: 100px; */
+}
+.hero-right>h1{
+    font-family: "Raleway";
+    margin-top: 40px;
+    font-weight: 700;
+    width: 600px;
+    font-size: 4.5rem;
+}
+.hero-right>p{
+    font-family: "Roboto";
+    width:560px ;
+    font-size:20px ;
+    color: gainsboro;
+    line-height: 2rem;
+}
+.contact-email{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+.contact-email>img{
+    left: 5px;
+    position: absolute;
+    height: 33px;
+    width: 20px;
+}
+.contact-email>input{
+    padding: 20px 0;
+    padding-left: 35px; 
+    width: 100%; 
+    font-size: 18px;
+}
+.contact-email>button{
+    position: absolute;
+    right: 8px;
+    padding: 13px 40px;
+    background-color: #8bb7a2;
+    color: #fffefe;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+.section-1{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.section-1>h1{
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 2.8rem;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+.number-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-family: "Roboto";
+}
+.number-content>h4{
+    font-size: 2.8rem;
+}
+.number-content>p{
+    color: #2b2b2b;
+    font-size: 18px;
+}
+.section-1>img{
+    height: 500px;
+    width: 980px;
+    object-fit: cover;
+}
+.section-2{
+    margin-top: 150px;
+    display: flex;
+    padding: 0 80px;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center; 
+}
+.section-2>h1{
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 2.8rem;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.card>img{
+    height: 370px;
+    width: 360px;
+    object-fit: cover;
+}
+.card>div{
+    width:480px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card>div>h1{
+    font-size: 2.5rem;
+    font-family: "Raleway";
+}
+.card>div>p{
+    font-size: 19px;
+    color: #626c78;
+    width: 500px;
+    font-family: "Roboto";
+}
+.card-btn{
+    padding: 13px 40px;
+    background-color: #8bb7a2;
+    color: #fffefe;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    width: fit-content;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.section-3{
+    margin-top: 150px;
+    display: flex;
+    padding: 0 200px;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center; 
+}
+.sec-3-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+.sec-3-head>h1{
+    font-family: "Raleway";
+    font-size: 2.4rem;
+    margin-left: -30px;
+}
+.sec-3-head>p{
+    font-family: "Roboto";
+    color:#626c78;
+    width: 500px;
+    font-size: 17px;
+}
+.team-imgs{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto";
+}
+.team-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 300px;
+}
+.team-img>img{
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    object-position: top;
+    margin-left: -20px;
+}
+.team-img>h4{
+    font-size: 20px;
+    align-self: flex-start;
+}
+.team-img>p{
+    font-size: 15px;
+    color: #626c78;
+}
+.self-center{
+    align-self: center;
+}
+footer{
+    background-color: #11191d;
+    margin-top: 100px;
+    padding: 30px 200px;
+    color: #fffefe;
+    padding-bottom: 40px;
+}
+.footer-header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    justify-content: space-between;
+    border-bottom: 3px solid #2b2b2b;
+    padding-bottom: 40px;
+}
+.footer-header>img{
+    height:45px;
+}
+.social-media{
+    display: flex;
+    gap: 15px;
+}
+.social-media div>img{
+    height: 17px;
+    filter: invert();
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 10px;
+    font-family: "Roboto";
+}
+.f-content{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    color:#c6c5c5;
+    font-size: 16px;
+}
+.f-content>li>h4{
+    color:#ffffff; 
+    font-size: 18px; 
+}
+
+/* Responsiveness */
+
+@media screen and (min-width:950px) and (max-width: 1200px){
+    .logo>img{
+        height: 20px;
+        /* position: static; */
+    }
+    .hero-left>img {
+        height: 400px;
+        width: 330px;
+    }
+    .hero-right>h1{
+        font-size:3rem ;
+        /* margin: 0; */
+        width: fit-content;
+    }
+    .numbers{
+        gap: 90px;
+    }
+    .section-1>img{
+        height: 450px;
+        width: 880px;
+        /* object-fit: cover; */
+    }
+    .card{
+        gap: 40px;
+    }
+    .section-3{
+        padding: 0 50px;
+    }
+    .team-imgs{
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .f-content{
+        font-size: 13px;
+    }
+    }
+
+@media screen and (min-width:750px) and (max-width:950px) {
+    .logo{
+        height: 7px;
+        margin-left: -30px;
+    }
+    .nav-list{
+        gap: 13px;
+        font-size: 15px;
+    }
+    .btn{
+        padding: 8px 30px;
+    }
+    .hero-left>img{
+        height:400px ;
+        width: 250px;
+    }
+    .hero-right{
+        width: 400px;
+    }
+    .hero-right>h1{
+        font-size: 2.3rem;
+    }
+    .hero-right>p{
+        font-size: 18px;
+    }
+    .contact-email>input{
+        font-size: 15px;
+    }
+    .contact-email{
+        width: 380px;
+    }
+    .contact-email>button{
+        font-size: 15px;
+    }
+    .numbers{
+        gap: 50px;
+    }
+    .section-1>img {
+        height: 390px;
+        width: 680px;
+    }
+    .section-2{
+        padding: 0 ;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+    .card{
+        gap: 45px;
+    }
+    .card>div{
+        width: 300px;
+    }
+    .card>div>h1{
+        font-size: 2rem;
+    }
+    .card>div>p{
+        font-size:16px ;
+    }
+    .card-img {
+        height: 290px;
+        width: 270px;
+    }
+    .card-btn {
+        font-size: 15px;
+    }
+    .sec-3-head{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;}
+    .team-imgs{
+        gap: 10px; 
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .team-img{
+        gap:10px;
+    }
+    .self-center{
+        margin-left: -10px;
+    }
+    footer{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}  
+ @media screen and (max-width:750px){
+    nav{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .logo>img {
+        height: 15px;
+    }
+    .nav-list{
+        margin-top: 30px; 
+        font-size: 15px;
+    }
+    .btn{
+        padding: 6px 20px;
+        font-size: 15px;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 15px;
+    }
+    .hero-left>img {
+        height: 360px;
+        width: 260px;
+    }
+    .hero-right{
+        width: 100%;
+        align-items: center;
+    }
+    .hero-right>h1{
+        font-size: 2rem;
+        width: 315px;
+    }
+    .hero-right>p{
+        font-size:17px ;
+        width: 350px;
+    }
+    .contact-email>button {
+        padding: 13px 16px;
+    }
+    .contact-email {
+        width: 290px;
+    }
+    .contact-email>img {
+        height: 25px;
+        width: 18px;
+    }
+    .numbers{
+        gap: 20px;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .number-content>h4{
+        font-size: 1.5rem;
+    }
+    .number-content>p{
+            font-size: 13px;
+            text-align: center;
+    }
+    .section-1>img {
+        height: 180px;
+        width: 280px;
+    }
+    .section-2>h1 {
+        font-size: 2rem;
+    }
+    .card{
+        flex-direction: column-reverse;
+    }
+    .card-img {
+        height: 255px;
+        width: 248px;
+    }
+    .card>div>h1 {
+        font-size: 1.5rem;
+    }
+    .card>div>{
+        width: 250px;
+    }
+    .section-3 {
+        padding: 0 35px;
+    }
+    .sec-3-head>h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .sec-3-head>p {
+        /* margin-top: 20px; */
+        font-size: 17px;
+    }
+    .team-imgs{
+        gap: 35px;
+    }
+    .team-img>img {
+        width: 200px;
+        height: 280px;
+    }
+    .social-media div>img {
+        height: 15px;
+    }
+    .footer-header>img{
+        height: fit-content;
+        width: 80px;
+    }
+    .footer-header{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-content{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+
+
+
+      
+ } 
