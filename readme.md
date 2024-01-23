@@ -1,6 +1,6 @@
 # Project 12
 
-[Live link](https://funny-panda-58f20b.netlify.app)
+[Live link](https://project-12-mu.vercel.app/)
 ## Name:Vaishnavi Jaju
 
 **The project took 5-6 hrs to complete.**
